@@ -1,0 +1,80 @@
+body{
+	background: url(../images/background1.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: roboto, sans-serif; 
+}
+
+.user-img img{
+	width: 100px;
+	height: 100px;
+}
+
+.main-section {
+	margin : 0 auto;
+	margin-top: 130px;
+	padding: 0; 
+}
+
+.modal-content {
+	background-color: #3b4652;
+	opacity: 0.80;
+	padding: 0 18px;
+	box-shadow: 0 0 3px #848484;
+}
+
+.user-img {
+	margin-top: -50px;
+	margin-bottom: 35px;
+}
+
+.form-group {
+	margin-bottom: 25px;
+}
+
+.form-group input {
+	height: 42px;
+	border-radius: 5px;
+	border: 0px;
+	font-size: 18px;
+	padding-left: 54px;  
+}
+
+.form-group::before {
+	font-family: 'Font Awesome\ 5 Free';
+	content: "\f007";
+	position: absolute;
+	font-size: 22px;
+	color: black;
+	left: 28px;
+	padding-top: 5px;
+}
+
+.fa-lock {
+	position: absolute;
+	padding-top: 8px;
+	font-size: 22px;
+	left: 28px;
+	
+}
+
+button{
+	margin: 5px 0 25px; 
+}
+
+.btn1 {
+	float: left;
+	font-size: 15px;
+	padding: 7px 14px;
+	border-bottom: 4px solid #428bca;
+}
+
+.btn2 {
+	float: right;
+	font-size: 15px;
+	padding: 7px 14px;
+	border-bottom: 4px solid #5cb85c;
+}
+
+.area {
+	color: #fff;
+}
